@@ -25,7 +25,7 @@ img{
 	text-align: right;
 }
 .navbar-brand img{
-	width: 95%;
+	width: 95% auto;
 }
 .navbar-nav .nav-item .nav-link{
 	font-size: 16px;
@@ -376,6 +376,9 @@ img{
 .blog-section .row{
 	border-bottom: 1px solid var(--light-color);
 	padding: 20px 0px;
+}
+.blog-content { 
+	text-align: justify;
 }
 .blog-content a{
 	text-decoration: none;

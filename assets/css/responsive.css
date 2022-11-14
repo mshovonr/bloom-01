@@ -45,6 +45,19 @@
   }
   /* services end */
   /* contact start */
+  .contact-section .contact-content{
+    padding-bottom: 40px;
+  }
+  .contact-text{
+    text-align: center;
+  }
+  .contact-text p{
+    font-size: 17px !important;
+  }
+  .contact-button{
+    text-align: center;
+    padding-top: 0px;
+  }
   .contact-section p{
     font-size: 14px;
   }
@@ -62,6 +75,12 @@
   }
   /* portfolio end */
   /* footer start */
+  .footer-item .footer-link{
+    font-size: 11px;
+  }
+  .footer-item ul li{
+    padding-left: 10px;
+  }
   .footer-end .row{
     flex-direction: column-reverse;
     text-align: center !important;
@@ -144,6 +163,15 @@
     font-size: 14px;
   }
   /* register end */
+  /* blog start */
+  .blog-date{
+    padding-top: 15px;
+  }
+  .blog-name{
+    padding-top: 15px;
+    text-align: right !important;
+  }
+  /* blog end */
   /* footer start */
   .footer-link img{
     width: 140px;
@@ -151,9 +179,6 @@
   }
   .footer-content .footer-text{
     margin-top: 35px;
-  }
-  .footer-item .footer-link{
-    font-size: 13px;
   }
   .footer-content .footer-item{
     margin-top: 0px;
@@ -239,6 +264,14 @@
     font-size: 12px;
   }
   /* register end */
+  /* footer start */
+  .footer-item ul li{
+    padding-left: 15px;
+  }
+  .footer-item .footer-link{
+    font-size: 11px;
+  }
+  /* footer end */
 }
   /* ------ container small end ------ */
 

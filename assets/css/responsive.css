@@ -171,6 +171,12 @@
     padding-top: 15px;
     text-align: right !important;
   }
+  .blog-name span{
+    font-size: 15px !important;
+  }
+  .blog-name a{
+    font-size: 16px !important;
+  }
   /* blog end */
   /* footer start */
   .footer-link img{

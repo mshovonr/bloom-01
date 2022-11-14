@@ -1,0 +1,403 @@
+
+  /* ------ container extra small start ------ */
+@media(min-width: 0px)  and (max-width: 575px){
+  /* navbar start */
+  .navbar-brand img{
+    width: 85%;
+    padding-left: 5px;
+  }
+  /* navbar end */
+  /* header start */
+  .carousel-inner{
+    padding-top: 160px;
+    padding-bottom: 120px;
+  }
+  .carousel-item h1{
+    font-size: 36px !important;
+    font-weight: 700;
+  }
+  .carousel-item p{
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+  /* header end */
+  /* about start */
+  .about-section .row{
+    flex-direction: column-reverse;
+  }
+  /* about end */
+  /* price start */
+  .price-section{
+    padding: 50px 0px;
+  }
+  .price-section h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+  .price-section a.btn{
+    padding: 10px 35px;
+    font-size: 13px;
+  }
+  /* price end */
+  /* services start */
+  .service-part .services{
+    padding-left: 124px;
+  }
+  /* services end */
+  /* contact start */
+  .contact-section p{
+    font-size: 14px;
+  }
+  .contact-section a.btn{
+    padding: 9px 25px;
+    font-size: 12px;
+  }
+  /* contact end */
+  /* portfolio start */
+  .portfolio-content-overlay i{
+    font-size: 30px;
+    padding-top: 40%;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  /* portfolio end */
+  /* footer start */
+  .footer-end .row{
+    flex-direction: column-reverse;
+    text-align: center !important;
+  }
+  .footer-end .row .text-end{
+    text-align: center !important;
+    padding-bottom: 10px;
+  }
+  /* footer end */
+}
+  /* ------ container extra small end ------ */
+
+/* --------------------- container extra small and small start --------------------*/
+@media(min-width: 0px) and (max-width: 767px){
+  /* navbar start */
+  .navbar{
+    padding-top: 14px;
+  }
+  .navbar-nav{
+    text-align: left;
+    padding-top: 12px;
+  }
+  /* navbar end */
+  /* header start */
+  .buttons .btn{
+    padding: 12px 35px;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  /* header end */
+  
+  /* about start */
+  .about-text{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .about-text h3{
+    font-size: 26px;
+  }
+  .about-text p{
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .about-text a{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .about-text a.btn{
+    margin-top: 25px;
+    padding: 9px 40px;
+  }
+  .about-image img{
+    width: 80%;
+  }
+  /* about end */
+  /* support start */
+  .support-section img{
+    width: 90%; 
+  }
+  .support-text{
+    padding-top: 20px;
+  }
+  .support-text h4{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .support-text p{
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  /* support end */
+  /* register start */
+  .register-form .submit{
+    text-align: center;
+  }
+  .register-form .btn{
+    margin: 15px 0px 0px 0px;
+    padding: 11px 30px !important;
+    font-size: 14px;
+  }
+  /* register end */
+  /* footer start */
+  .footer-link img{
+    width: 140px;
+    padding-left: 5px;
+  }
+  .footer-content .footer-text{
+    margin-top: 35px;
+  }
+  .footer-item .footer-link{
+    font-size: 13px;
+  }
+  .footer-content .footer-item{
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .footer-content p{
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+  .footer-end{
+    margin-top: 20px;
+  }
+  /* footer end */
+}
+/* --------------------- container extra small and small end --------------------*/
+
+  /* ------ container small start ------ */
+@media(min-width: 576px) and (max-width: 767px){
+  /* navbar start */
+  .navbar-brand img{
+    width: 90%;
+  }
+  /* navbar end */
+  /* header start */
+  .carousel-inner{
+    padding-top: 170px;
+    padding-bottom: 120px;
+  }
+  .carousel-item h1{
+    font-size: 46px;
+    font-weight: 800;
+  }
+  .carousel-item p{
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+  /* header end */
+  /* team start */
+  .team-part .teams{
+    padding-left: 150px;
+  }
+  /* team end */
+  /* price start */
+  .price-section{
+    padding: 60px 0px;
+  }
+  .price-section h2{
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  .price-section a.btn{
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+  /* price end */
+  /* contact start */
+  .contact-text p{
+    font-size: 15px;
+  }
+  .contact-button a.btn{
+    padding: 10px 30px;
+    font-size: 13px;
+  }
+  /* contact end */
+  /* portfolio start */
+  .portfolio-content-overlay i{
+    font-size: 26px;
+    padding-top: 35%;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  /* portfolio end */
+  /* register start */
+   /* form start */
+   .register-form .form-control{
+    padding: 0.5rem 0.75rem;
+  }
+  .register-form .btn{
+    margin: 25px 0px 0px 0px;
+    padding: 11px 25px !important;
+    font-size: 12px;
+  }
+  /* register end */
+}
+  /* ------ container small end ------ */
+
+/* --------------------- container medium start -------------------- */
+@media(min-width: 768px) and (max-width: 991px){
+  /* navbar start */
+  .navbar-nav{
+    text-align: left;
+    padding-top: 16px;
+  }
+  /* navbar-end */
+  /* header start */
+  .carousel-inner{
+    padding-top: 200px;
+    padding-bottom: 120px;
+  }
+  .carousel-item h1{
+    font-size: 48px;
+    font-weight: 800;
+  }
+  .carousel-item p{
+    padding: 10px 45px;
+    font-size: 18px;
+  }
+  .buttons .btn{
+    padding: 12px 45px;
+    margin-right: 25px;
+    font-size: 16px;
+  }
+  /* header end */
+  /* about start */
+  .about-section .row{
+    flex-direction: row-reverse;
+  }
+  .about-text h3{
+    font-size: 32px;
+  }
+  .about-text a.btn{
+    margin-top: 25px;
+    padding: 9px 45px;
+  }
+  .about-image{
+    padding-top: 50px;
+  }
+  /* about end */
+   /* team start */
+   .team-part h3{
+    font-size: 20px;
+  }
+  .team-part p{
+    font-size: 13px;
+  }
+  /* team end */
+  /* price start */
+  .price-section{
+    padding: 70px 0px;
+  }
+  .price-section h2{
+    font-size: 38px;
+    padding-bottom: 25px;
+  }
+  .price-section a.btn{
+    padding: 10px 45px;
+    font-size: 14px;
+  }
+  /* price end */
+  /* support start */
+  .support-section img{
+    width: 95%; 
+  }
+  .support-text{
+    padding-top: 20px;
+  }
+  .support-text h4{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .support-text p{
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  /* support end */
+  /* portfolio start */
+  .portfolio-content-overlay i{
+    font-size: 30px;
+    padding-top: 35%;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  /* portfolio end */
+  /* register start */
+  .register-text h3{
+    font-size: 20px;
+  }
+  .register-text p{
+    font-size: 13px;
+  }
+  /* form start */
+  .register-form .form-control{
+    padding: 0.5rem 0.75rem;
+  }
+  .register-form .btn{
+    margin: 25px 0px 0px 0px;
+    padding: 11px 25px !important;
+    font-size: 12px;
+  }
+  /* register end */
+  /* footer-start */
+  .footer-content p{
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 5px;
+  }
+  .footer-item .footer-link{
+    font-size: 13px;
+  }
+  /* footer end */
+}
+/* --------------------- container medium end -------------------- */
+
+/* --------------------- container large start -------------------- */
+@media(min-width: 992px) and (max-width: 1199px){
+  /* header start */
+  .carousel-inner{
+    padding-top: 220px;
+    padding-bottom: 135px;
+  }
+  .carousel-item h1{
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .carousel-item p{
+    padding: 10px 65px;
+    font-size: 16px;
+  }
+  /* header end */
+  /* about start */
+  .about-image{
+    padding-top: 10px;
+  }
+  /* about end */
+  /* support start */
+  .support-text{
+    padding-top: 0px;
+  }
+  /* support end */
+  /* register start */
+  .register-text h3{
+    font-size: 19px;
+  }
+  .register-text p{
+    font-size: 14px;
+  }
+  /* register end */
+}
+/* -------------------- container large end -------------------- */
+/* -------------------- container extra large -------------------- */
+/* @media (min-width: 1200px;){
+  .register-form .submit{
+    padding-left: 30px !important;
+  }
+} */
